@@ -22,7 +22,7 @@ In the ExpVecEDM directory, run the following command to test the code:
 
 ## License
 
-The MIT License
+The GNU Public License, Version 3.0+
 
 ## Citation Information
 
