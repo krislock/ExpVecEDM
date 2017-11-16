@@ -1,0 +1,9 @@
+*** Citation Information
+If you find this software useful, please cite it in you publication as
+follows:
+
+[1] P. Biswas, T.-C. Liang, K.-C. Toh, T.-C. Wang, and Y. Ye,
+    Semidefinite programming approaches for sensor network localization
+    with noisy distance measurements,
+    IEEE Transactions on Automation Science and Engineering,
+    3 (2006), pp. 360--371.
