@@ -56,7 +56,7 @@ function [X, Xrefined, xinds, info] = ExpVecEDM(Dpartial, A, r, opts)
 % and the pareto frontier. SIAM Journal on Optimization, 27(4):2301-2331,
 % 2017.
 
-% ExpVecEDM, version 0.1
+% ExpVecEDM, version 1.0
 % Copyright (C) 2017 by Dmitriy Drusvyatskiy, Nathan Krislock, Yuen-Lam
 % Voronin, and Henry Wolkowicz.
 % Last Modified 2017 Nov 14
