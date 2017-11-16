@@ -3,7 +3,7 @@
 % n is the total number of sensors and anchors
 % m is the number of anchors
 params.n    = 1000;
-params.m    = 0;
+params.m    = 10;
 params.r    = 2;
 params.R    = 0.25;
 params.nf   = 0.10;
