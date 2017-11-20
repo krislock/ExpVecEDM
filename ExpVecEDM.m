@@ -155,11 +155,19 @@ end
 
 % Refine positions
 if opts.refine
+    maxit = 500;
+    tol = 1e-9;
+    
     tt = tic;
-    Xrefined = SNLSDP_0.refinepositions(X', A', sqrt(D(1:n-m,:)))';
+    [Xrefined, refposinfo] = SNLSDP_0.refinepositions(...
+        X', A', sqrt(D(1:n-m,:)), maxit, tol);
     info.time.refine = toc(tt);
+    
+    Xrefined = Xrefined';
     if opts.verbose
         fprintf(fmt, 'Refine positions', info.time.refine);
+        fprintf(' (# refine iters:   %d)\n', ...
+            length(refposinfo.objective));
     end
 else
     Xrefined = [];
